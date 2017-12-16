@@ -10,6 +10,6 @@
     <p>Here is an example webpage. We can <?php echo "output PHP like this."; ?>. 
     As a shorthand, we can also <?= "do this" ?>.</p>
     <h2>Library Function Example</h2>
-    <?php outputData("Jonathon", ['age' => '24', 'hometown' => 'Llandegfan']); ?>
+    <?php LibraryHelper::outputData("Jonathon", ['age' => '24', 'hometown' => 'Llandegfan']); ?>
   </body>
 </html>
