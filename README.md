@@ -1,2 +1,3 @@
 # example-for-george
-Example of OO-PDO in PHP for one of the students I am mentoring.
+
+Example of OO and PDO in PHP for one of the students I am mentoring.

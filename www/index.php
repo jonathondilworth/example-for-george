@@ -11,5 +11,9 @@
     As a shorthand, we can also <?= "do this" ?>.</p>
     <h2>Library Function Example</h2>
     <?php LibraryHelper::outputData("Jonathon", ['age' => '24', 'hometown' => 'Llandegfan']); ?>
+    <hr>
+    <h2>Notice (Another Library Function Example)</h2>
+    <!-- notice the PHP short hand -->
+    <p><?= LibraryHelper::getSuperUserDetails() ?></p>
   </body>
 </html>
