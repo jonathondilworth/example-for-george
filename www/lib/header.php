@@ -83,12 +83,12 @@ class LibraryHelper
     // how about something like this?
 
     $superUserDetails = $config['appDetails']['example']['superuser'];
-    $suDetailsFirstName = $superUser['name'];
-    $suDetailsJobTitle = $superUser['jobTitle'];
+    $suDetailsFirstName = $superUserDetails['name'];
+    $suDetailsJobTitle = $superUserDetails['jobTitle'];
 
     // let's output these details now (remember, your code should read such that it doesn't need commenting)
 
-    return "Website owner first name: {$suDetailsFirstName}. Job title: {$superUserJobTitle}";
+    return "Website owner first name: {$suDetailsFirstName}. Job title: {$suDetailsJobTitle}";
   }
 } // LibraryHelper class
 
