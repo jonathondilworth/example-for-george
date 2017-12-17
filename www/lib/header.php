@@ -69,19 +69,20 @@ class LibraryHelper
    * <?php echo LibraryHelper::getParamsSuperUser() ?>
    *
    * Notice how we document each function using doc comments.
+   * @param mixed $config the apps global parameters as requried at the top of the file
    * @return String details regarding the owner of the website.
    */
-  public static function getSuperUserDetails()
+  public static function getSuperUserDetails($config)
   {
     // accessing data stored within the global $params is equivalent to accessing a multidimensional array
     // the best type of code is simple, and easy to understand. But this may be a little verbose.
 
-    $superUserFirstName = $params['appDetails']['example']['superuser']['name'];
-    $superUserJobTitle = $params['appDetails']['example']['superuser']['jobTitle'];
+    $superUserFirstName = $config['appDetails']['example']['superuser']['name'];
+    $superUserJobTitle = $config['appDetails']['example']['superuser']['jobTitle'];
 
     // how about something like this?
 
-    $superUserDetails = $params['appDetails']['example']['superuser'];
+    $superUserDetails = $config['appDetails']['example']['superuser'];
     $suDetailsFirstName = $superUser['name'];
     $suDetailsJobTitle = $superUser['jobTitle'];
 

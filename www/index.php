@@ -14,6 +14,6 @@
     <hr>
     <h2>Notice (Another Library Function Example)</h2>
     <!-- notice the PHP short hand -->
-    <p><?= LibraryHelper::getSuperUserDetails() ?></p>
+    <p><?= LibraryHelper::getSuperUserDetails($params) ?></p>
   </body>
 </html>
