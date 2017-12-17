@@ -14,7 +14,7 @@
  * For now, you could include parameters in a couple of different ways. You might want to load
  * it in as a 'global variable' at the top of each page, similar to this.
  */
-$params = require('../params.php');
+$appParams = require('../../app-params.php');
 
 
 /**
@@ -123,8 +123,8 @@ class Connection
  * Global PDO object
  */
 $pdo = Connection::make([
-  'connection' => $params['connection'],
-  'username' => $params['db_username'],
-  'password' => $params['db_password'],
-  'options' => $params['db_options'],
+  'connection' => $appParams['connection'],
+  'username' => $appParams['db_username'],
+  'password' => $appParams['db_password'],
+  'options' => $appParams['db_options'],
 ]);
