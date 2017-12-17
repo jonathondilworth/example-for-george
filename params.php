@@ -13,11 +13,10 @@
 return [
   'db' => [
     'connection' => 'mysql:host=127.0.0.1;dbname=example-app',
+    'db_name' => 'example-app',
     'db_username' => '',
     'db_password' => '',
-    'db_options' => [
-      // empty
-    ],
+    'db_options' => [],
   ],
   'appDetails' => [
     'example' => [
