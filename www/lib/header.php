@@ -14,7 +14,7 @@
  * For now, you could include parameters in a couple of different ways. You might want to load
  * it in as a 'global variable' at the top of each page, similar to this.
  */
-$appParams = require('../../app-params.php');
+$appParams = require('../app-params.php');
 
 
 /**
