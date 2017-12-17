@@ -15,5 +15,6 @@
     <h2>Notice (Another Library Function Example)</h2>
     <!-- notice the PHP short hand -->
     <p><?= LibraryHelper::getSuperUserDetails($params) ?></p>
+    <?php var_dump($params) ?>
   </body>
 </html>
