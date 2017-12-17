@@ -14,7 +14,9 @@
     <hr>
     <h2>Notice (Another Library Function Example)</h2>
     <!-- notice the PHP short hand -->
-    <p><?= LibraryHelper::getSuperUserDetails($appParams) ?></p>
-    <?php var_dump($appParams) ?>
+    <p><?= LibraryHelper::getSuperUserDetails($params) ?></p>
+    <hr>
+    <h2>TODO:</h2>
+    <p>Include a PDO example here, where we fetch a database row.</p>
   </body>
 </html>
